@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTADO DEL CURSO</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-dark text-white text-center">
+
+    <div class="container mt-5">
+        <h1>REPORTE DEL CURSO</h1>
+        <hr>
+
+        <table class="table table-bordered table-striped table-dark mt-4">
+            <thead>
+                <tr>
+                    <th>Concepto</th>
+                    <th>Resultado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Total de Aprobados (7 a 10)</td>
+                    <td id="aprobados">0</td>
+                </tr>
+                <tr>
+                    <td>Total de Supletorio (5 a 6)</td>
+                    <td id="supletorio">0</td>
+                </tr>
+                <tr>
+                    <td>Total de Reprobados (0 a 4)</td>
+                    <td id="reprobados">0</td>
+                </tr>
+                <tr>
+                    <td>Promedio del Curso</td>
+                    <td id="promedio">0</td>
+                </tr>
+                <tr>
+                    <td>Estado del Curso</td>
+                    <td id="estado">-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/notas.js"></script>
+</body>
+</html>
