@@ -7,42 +7,35 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 
-<body class="bg-dark text-white text-center">
+<body class="bg-light">
 
     <div class="container mt-5">
-        <h1>REPORTE DEL CURSO</h1>
-        <hr>
+        <h3 class="mb-4">Reporte del Curso</h3>
 
-        <table class="table table-bordered table-striped table-dark mt-4">
-            <thead>
-                <tr>
-                    <th>Concepto</th>
-                    <th>Resultado</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Total de Aprobados (7 a 10)</td>
-                    <td id="aprobados">0</td>
-                </tr>
-                <tr>
-                    <td>Total de Supletorio (5 a 6)</td>
-                    <td id="supletorio">0</td>
-                </tr>
-                <tr>
-                    <td>Total de Reprobados (0 a 4)</td>
-                    <td id="reprobados">0</td>
-                </tr>
-                <tr>
-                    <td>Promedio del Curso</td>
-                    <td id="promedio">0</td>
-                </tr>
-                <tr>
-                    <td>Estado del Curso</td>
-                    <td id="estado">-</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="mb-3">
+            <label class="form-label">Total de Aprobados (7 a 10)</label>
+            <input type="text" id="aprobados" class="form-control" disabled>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Total de Supletorio (5 a 6)</label>
+            <input type="text" id="supletorio" class="form-control" disabled>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Total de Reprobados (0 a 4)</label>
+            <input type="text" id="reprobados" class="form-control" disabled>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Promedio del Curso</label>
+            <input type="text" id="promedio" class="form-control" disabled>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Estado del Curso</label>
+            <input type="text" id="estado" class="form-control" disabled>
+        </div>
     </div>
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

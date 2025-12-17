@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "dev" : "vite",
-    "build" : "vite build",
+    "dev": "vite",
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,5 +16,13 @@
   "dependencies": {
     "bootstrap": "^5.3.8",
     "vite": "^7.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidJuxxx/P2T2_CERON_DAVID.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DavidJuxxx/P2T2_CERON_DAVID/issues"
+  },
+  "homepage": "https://github.com/DavidJuxxx/P2T2_CERON_DAVID#readme"
 }
