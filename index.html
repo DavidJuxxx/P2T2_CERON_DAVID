@@ -13,6 +13,23 @@
         <h3 class="mb-4">Reporte del Curso</h3>
 
         <div class="mb-3">
+            <label class="form-label">Ingrese una nota</label>
+            <input type="number" id="txt_nota" class="form-control" min="0" max="10">
+        </div>
+
+        <div class="mb-4">
+            <button type="button" id="btn_agregar" class="btn btn-primary">
+                Agregar
+            </button>
+
+            <button type="button" id="btn_limpiar" class="btn btn-danger ms-2">
+                Limpiar
+            </button>
+        </div>
+
+        <hr>
+
+        <div class="mb-3">
             <label class="form-label">Total de Aprobados (7 a 10)</label>
             <input type="text" id="aprobados" class="form-control" disabled>
         </div>
