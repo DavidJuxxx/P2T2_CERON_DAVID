@@ -1,19 +1,17 @@
+let notas = [8, 4, 10, 6, 3, 9, 5, 7, 2];
 
-var notas = [8, 4, 10, 6, 3, 9, 5, 7, 2];
+let aprobados = 0;
+let supletorio = 0;
+let reprobados = 0;
+let suma = 0;
+let promedio = 0;
+let estado = "";
 
-// Variables
-var aprobados = 0;
-var supletorio = 0;
-var reprobados = 0;
-var suma = 0;
-var promedio = 0;
-var estado = "";
-
-var txt_aprobados = document.getElementById("aprobados");
-var txt_supletorio = document.getElementById("supletorio");
-var txt_reprobados = document.getElementById("reprobados");
-var txt_promedio = document.getElementById("promedio");
-var txt_estado = document.getElementById("estado");
+let txt_aprobados = document.getElementById("aprobados");
+let txt_supletorio = document.getElementById("supletorio");
+let txt_reprobados = document.getElementById("reprobados");
+let txt_promedio = document.getElementById("promedio");
+let txt_estado = document.getElementById("estado");
 
 notas.forEach(function (nota) {
 
@@ -23,7 +21,7 @@ notas.forEach(function (nota) {
         aprobados = aprobados + 1;
     } else if (nota >= 5 && nota <= 6) {
         supletorio = supletorio + 1;
-    } else {
+    } else if (nota >= 0 && nota <= 4) {
         reprobados = reprobados + 1;
     }
 
